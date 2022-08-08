@@ -1,0 +1,17 @@
+{
+  "name": "tailwind",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tailwindcss -i ./src/taliwind.css -o ./public/css/style.css --watch",
+    "build": "tailwindcss -i ./src/taliwind.css -o ./public/css/style.css --minify"
+
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.1.3"
+  }
+}
